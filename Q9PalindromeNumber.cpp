@@ -12,5 +12,5 @@ public:
     
         if(ans==x) return true;
         else  return false;   
-}};
+}};  
     
