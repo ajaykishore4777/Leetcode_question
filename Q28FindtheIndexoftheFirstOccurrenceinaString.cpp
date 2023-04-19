@@ -12,7 +12,7 @@ public:
                 if (i == m - 1) {
                     return windowStart;
                 }
-            }
+            }   
         }
 
         return -1;   
