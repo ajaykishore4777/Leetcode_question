@@ -9,7 +9,6 @@ public:
                 ans--;
             }
             if(ans == 0)return "";
-        }
-        return strs[0].substr(0, ans);
-    }
+        }  
+        return strs[0].substr(0, ans);  
 };
