@@ -8,7 +8,7 @@ int romanToInt(string s) {
         {'L',50},                    
         {'C',100},          
         {'D',500},           
-        {'M',1000},
+        {'M',1000},   
     };      
     int ans =0;   
     for(int i=0;i<s.size();i++){
