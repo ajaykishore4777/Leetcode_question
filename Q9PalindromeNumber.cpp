@@ -8,9 +8,9 @@ public:
         int digit=a%10;      
         ans = (ans*10)+digit;
         a=a/10;
-        }
+        }     
     
         if(ans==x) return true;
         else  return false;   
-}};  
+}};     
     
