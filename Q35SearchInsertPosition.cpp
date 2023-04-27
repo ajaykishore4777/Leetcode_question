@@ -15,7 +15,7 @@ public:
           
             if(target<nums[mid]){     
             high=mid-1;    
-            }else{
+            }else{     
             low=mid+1;        
             }
           
