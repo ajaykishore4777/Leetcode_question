@@ -13,7 +13,7 @@ public:
                 else{
                     v.push_back(0);
                     v[i] = 1;
-                }
+                }    
             }
         }
         return v;
