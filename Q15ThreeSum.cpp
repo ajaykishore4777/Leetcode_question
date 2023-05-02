@@ -13,10 +13,10 @@ public:
                 if (sum == target) {
                     s.insert({nums[i], nums[j], nums[k]});
                     j++;
-                    k--;
+                    k--;    
                 } else if (sum < target) {
                     j++;
-                } else {
+                } else {   
                     k--;
                 }
             }
