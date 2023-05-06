@@ -15,5 +15,5 @@ public:
             l2 = l2 ? l2->next : nullptr;
         }
         return dummyHead->next;    
-    }
+    }     
 };   
