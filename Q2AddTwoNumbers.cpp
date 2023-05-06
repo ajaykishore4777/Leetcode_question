@@ -12,7 +12,7 @@ public:
             curr->next = new ListNode(sum % 10);
             curr = curr->next;
             l1 = l1 ? l1->next : nullptr;
-            l2 = l2 ? l2->next : nullptr;
+            l2 = l2 ? l2->next : nullptr;    
         }
         return dummyHead->next;    
     }     
