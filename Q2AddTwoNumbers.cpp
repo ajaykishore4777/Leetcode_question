@@ -9,7 +9,7 @@ public:
             int y = l2 ? l2->val : 0;
             int sum = carry + x + y;
             carry = sum / 10;
-            curr->next = new ListNode(sum % 10);
+            curr->next = new ListNode(sum % 10);     
             curr = curr->next;
             l1 = l1 ? l1->next : nullptr;
             l2 = l2 ? l2->next : nullptr;    
