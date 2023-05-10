@@ -9,7 +9,7 @@ public:
             int j = i + 1;
             int k = nums.size() - 1;
             while (j < k) {
-                int sum = nums[i] + nums[j] + nums[k];
+                int sum = nums[i] + nums[j] + nums[k];   
                 if (sum == target) {
                     s.insert({nums[i], nums[j], nums[k]});
                     j++;
