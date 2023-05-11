@@ -6,7 +6,7 @@ public:
         set<vector<int>> s;
         vector<vector<int>> output;
         for (int i = 0; i < nums.size(); i++){
-            int j = i + 1;
+            int j = i + 1;   
             int k = nums.size() - 1;
             while (j < k) {
                 int sum = nums[i] + nums[j] + nums[k];   
