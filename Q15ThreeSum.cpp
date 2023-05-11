@@ -18,7 +18,7 @@ public:
                     j++;
                 } else {   
                     k--;   
-                }
+                }     
             }
         }
         for(auto triplets : s)
