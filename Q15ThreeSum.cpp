@@ -17,7 +17,7 @@ public:
                 } else if (sum < target) {
                     j++;
                 } else {   
-                    k--;   
+                    k--;      
                 }     
             }
         }
