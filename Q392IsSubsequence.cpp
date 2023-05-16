@@ -15,5 +15,5 @@ public:
      
     // If all characters of str1 were found in str2
     return (j == s.length());
-    }
+    }   
 };
