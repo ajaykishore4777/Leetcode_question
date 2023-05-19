@@ -8,7 +8,7 @@ public:
             while(strs[i].substr(0, ans) != strs[i+1].substr(0, ans)){
                 ans--;
             }
-            if(ans == 0)return "";
+            if(ans == 0)return "";   
         }     
         return strs[0].substr(0, ans);       
 };
