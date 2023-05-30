@@ -39,7 +39,7 @@ public:
                 level.clear();
             }
         }
-            
+               
         return true;
     }
 };
