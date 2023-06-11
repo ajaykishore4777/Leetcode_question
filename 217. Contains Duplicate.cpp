@@ -4,4 +4,4 @@ public:
         set<int> myset(nums.begin(), nums.end());
         return myset.size() < nums.size();
     }
-};
+};  
