@@ -21,7 +21,7 @@ public:
         vector<vector<int>> ans;
         
         backtrack(k, n, cur, ans);   
-        
+          
         return ans;
     }   
 };    
