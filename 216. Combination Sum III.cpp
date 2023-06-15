@@ -23,5 +23,5 @@ public:
         backtrack(k, n, cur, ans);   
         
         return ans;
-    }
+    }   
 };    
