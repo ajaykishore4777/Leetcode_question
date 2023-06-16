@@ -21,8 +21,8 @@ public:
             }
             n /= 1000;
             // cout << ans << endl;
-        }
+        }  
         
         return ans;
-    }
+    }   
 };
