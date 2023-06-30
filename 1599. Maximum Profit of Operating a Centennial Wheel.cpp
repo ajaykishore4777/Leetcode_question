@@ -31,7 +31,7 @@ public:
             
             remain -= board;
         }
-        
+   
         return (max_profit < 0) ? -1 : max_time;
     }
 };
