@@ -12,4 +12,8 @@ public:
         // cout << endl;
         return false;
     }
+<<<<<<< HEAD
 };    
+=======
+};  
+>>>>>>> 1039ef731bc5c3a36b11a5911ef9d499c2263948
