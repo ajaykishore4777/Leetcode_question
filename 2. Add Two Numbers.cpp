@@ -17,7 +17,7 @@ public:
             }
             ListNode *tmp = new ListNode(digit%10);
             pre->next = tmp;
-            pre = pre->next;
+            pre = pre->next;  
             digit/=10;
         }
         
