@@ -12,6 +12,6 @@ public:
             n >>= 1;
             d++;
         }
-        return x;
+        return x;  
     }
 };  
