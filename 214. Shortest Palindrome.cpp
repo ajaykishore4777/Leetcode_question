@@ -8,7 +8,7 @@ public:
                 return false;
             }
         }
-        
+           
         return true;
     };
     
@@ -20,9 +20,9 @@ public:
                 string prepend = s.substr(l);
                 reverse(prepend.begin(), prepend.end());
                 return prepend + s;
-            }
+            }    
         }
         
-        return "";
+        return "";   
     }
 };
