@@ -20,7 +20,7 @@ public:
                 comb.pop_back();
             }
         }
-    };
+    };   
     
     vector<string> generateParenthesis(int n) {
         string comb;
