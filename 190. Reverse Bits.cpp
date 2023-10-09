@@ -5,7 +5,7 @@ public:
         // // return numeric_limits<uint32_t>::max() - n;
         // return numeric_limits<uint32_t>::max();
         uint32_t x = 0;
-        int d = 0;
+        int d = 0;  
         while(n > 0){
             // cout << d << " " << n << endl;
             x += (n%2) << (31 - d);
